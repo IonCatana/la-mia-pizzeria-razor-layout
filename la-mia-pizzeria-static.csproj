@@ -11,6 +11,12 @@
     <Content Remove="Views\Home\pizzaCrudaiola.cshtml" />
     <Content Remove="Views\Home\pizzaMargherita.cshtml" />
     <Content Remove="Views\Home\pizzaOrtolana.cshtml" />
+    <Content Remove="Views\Home\pizzaPepperoni.cshtml" />
+    <Content Remove="Views\Home\pizzaPesto.cshtml" />
+    <Content Remove="Views\Home\pizzaPrimavera.cshtml" />
+    <Content Remove="Views\Home\pizzaQuatroStagioni.cshtml" />
+    <Content Remove="Views\Home\pizzaTonnoCipolle.cshtml" />
+    <Content Remove="Views\Home\pizzaVegetariana.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +28,12 @@
     <None Include="Views\Home\pizzaCrudaiola.cshtml" />
     <None Include="Views\Home\pizzaMargherita.cshtml" />
     <None Include="Views\Home\pizzaOrtolana.cshtml" />
+    <None Include="Views\Home\pizzaPepperoni.cshtml" />
+    <None Include="Views\Home\pizzaPesto.cshtml" />
+    <None Include="Views\Home\pizzaPrimavera.cshtml" />
+    <None Include="Views\Home\pizzaQuatroStagioni.cshtml" />
+    <None Include="Views\Home\pizzaTonnoCipolle.cshtml" />
+    <None Include="Views\Home\pizzaVegetariana.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
