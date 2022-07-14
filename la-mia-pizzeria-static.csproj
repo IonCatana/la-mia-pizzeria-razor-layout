@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>la_mia_pizzeria_static</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\pizzaCrudaiola.cshtml" />
+    <Content Remove="Views\Home\pizzaMargherita.cshtml" />
+    <Content Remove="Views\Home\pizzaOrtolana.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Nuova cartella\" />
+    <Folder Include="wwwroot\Nuova cartella\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\pizzaCrudaiola.cshtml" />
+    <None Include="Views\Home\pizzaMargherita.cshtml" />
+    <None Include="Views\Home\pizzaOrtolana.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.7" />
+  </ItemGroup>
+
+</Project>
